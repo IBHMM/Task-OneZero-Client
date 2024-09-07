@@ -45,7 +45,10 @@
       font-weight: 600;
       font-size: 13px;
       margin-left: 5px;
-      max-width: 90%;
+
+      @media (max-width: 550px) {
+        font-size: 9px;
+      }
     }
 
     img {
@@ -63,7 +66,7 @@
 
       @media (max-width: 476px) {
         width: 100%; 
-        min-width: 160px;
+        min-width: 150px;
         height: 64px; 
       }
 
